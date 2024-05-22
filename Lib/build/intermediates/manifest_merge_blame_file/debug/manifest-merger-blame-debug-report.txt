@@ -1,0 +1,20 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lib" >
+4
+5    <uses-sdk android:minSdkVersion="22" />
+6
+7    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+7-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:4:5-79
+7-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:4:22-76
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:5:5-67
+8-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:5:22-64
+9    <uses-permission android:name="android.permission.CALL_PHONE" />
+9-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:6:5-68
+9-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:6:22-66
+10    <uses-permission android:name="android.permission.SEND_SMS" />
+10-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:7:5-66
+10-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\src\main\AndroidManifest.xml:7:22-64
+11
+12</manifest>
