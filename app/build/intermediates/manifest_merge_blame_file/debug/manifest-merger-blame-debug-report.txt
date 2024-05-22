@@ -1,0 +1,207 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.appfood"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:12:5-69
+18-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:12:22-66
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:13:5-72
+19-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:13:22-69
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->[:Lib] C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+20-->[:Lib] C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\Lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <application
+32-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:15:5-82:19
+33        android:allowBackup="true"
+33-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:16:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\1d682199c6b07e4f6f458f93bcb0b081\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:17:9-43
+38        android:label="@string/app_name"
+38-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:18:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:19:9-54
+40        android:supportsRtl="true"
+40-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:20:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.AppFood"
+42-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:21:9-45
+43        android:usesCleartextTraffic="true" >
+43-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:22:9-44
+44        <activity
+44-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:23:9-26:39
+45            android:name="com.example.appfood.activity.SuccessCheckoutActivity"
+45-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:25:13-61
+46            android:exported="true"
+46-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:26:13-36
+47            android:screenOrientation="portrait" />
+47-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:24:13-49
+48        <activity
+48-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:27:9-30:52
+49            android:name="com.example.appfood.activity.GioiThieuChungActivity"
+49-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:28:13-60
+50            android:exported="true"
+50-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:29:13-36
+51            android:screenOrientation="portrait" />
+51-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:30:13-49
+52        <activity
+52-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:32:9-35:52
+53            android:name="com.example.appfood.activity.ThongTinKhachHangActivity"
+53-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:33:13-63
+54            android:exported="true"
+54-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:34:13-36
+55            android:screenOrientation="portrait" />
+55-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:35:13-49
+56        <activity
+56-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:36:9-39:52
+57            android:name="com.example.appfood.activity.GioHangActivity"
+57-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:37:13-53
+58            android:exported="true"
+58-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:38:13-36
+59            android:screenOrientation="portrait" />
+59-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:39:13-49
+60        <activity
+60-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:40:9-43:52
+61            android:name="com.example.appfood.activity.ChiTietMonActivity"
+61-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:41:13-56
+62            android:exported="true"
+62-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:42:13-36
+63            android:screenOrientation="portrait" />
+63-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:43:13-49
+64        <activity
+64-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:44:9-47:52
+65            android:name="com.example.appfood.activity.ChiTietDanhMucActivity"
+65-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:45:13-60
+66            android:exported="true"
+66-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:46:13-36
+67            android:screenOrientation="portrait" />
+67-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:47:13-49
+68        <activity
+68-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:48:9-51:52
+69            android:name="com.example.appfood.activity.LienHeActivity"
+69-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:49:13-52
+70            android:exported="true"
+70-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:50:13-36
+71            android:screenOrientation="portrait" />
+71-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:51:13-49
+72        <activity
+72-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:52:9-55:52
+73            android:name="com.example.appfood.activity.DanhMucActivity"
+73-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:53:13-53
+74            android:exported="true"
+74-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:54:13-36
+75            android:screenOrientation="portrait" />
+75-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:55:13-49
+76        <activity
+76-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:56:9-60:20
+77            android:name="com.example.appfood.activity.MainActivity"
+77-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:57:13-50
+78            android:exported="true"
+78-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:58:13-36
+79            android:screenOrientation="portrait" >
+79-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:59:13-49
+80        </activity>
+81        <activity
+81-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:61:9-70:20
+82            android:name="com.example.appfood.activity.Home"
+82-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:62:13-42
+83            android:exported="true"
+83-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:63:13-36
+84            android:screenOrientation="portrait" >
+84-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:64:13-49
+85            <intent-filter>
+85-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:65:13-69:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:66:17-69
+86-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:66:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:68:17-77
+88-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:68:27-74
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:71:9-75:20
+92            android:name="com.example.appfood.activity.LoginActivity"
+92-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:72:13-51
+93            android:exported="true"
+93-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:73:13-36
+94            android:screenOrientation="portrait" >
+94-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:74:13-49
+95        </activity>
+96        <activity
+96-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:76:9-79:52
+97            android:name="com.example.appfood.activity.YeuThich"
+97-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:77:13-46
+98            android:exported="true"
+98-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:78:13-36
+99            android:screenOrientation="portrait" />
+99-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:79:13-49
+100        <activity android:name="com.example.appfood.activity.DonHangActivity" />
+100-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:80:9-62
+100-->C:\Users\Admin\AndroidStudioProjects\Do An Android (1)\Do An Android\app\src\main\AndroidManifest.xml:80:19-59
+101
+102        <!-- Needs to be explicitly declared on P+ -->
+103        <uses-library
+103-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
+104            android:name="org.apache.http.legacy"
+104-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
+105            android:required="false" />
+105-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\9b721a5e9e107b4cb17a32778dcca2fb\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c3ac6b56f028c7beeb73e632ff28a33c\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c3ac6b56f028c7beeb73e632ff28a33c\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c3ac6b56f028c7beeb73e632ff28a33c\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c3ac6b56f028c7beeb73e632ff28a33c\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Admin\.gradle\caches\transforms-3\294325b3e77e5600b481fdf975168496\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Admin\.gradle\caches\transforms-3\294325b3e77e5600b481fdf975168496\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Admin\.gradle\caches\transforms-3\294325b3e77e5600b481fdf975168496\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+115    </application>
+116
+117</manifest>
