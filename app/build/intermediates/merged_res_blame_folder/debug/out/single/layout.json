@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_gio_hang.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_gio_hang.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/item_grid_mon_ngau_nhien.xml",
+        "source": "com.example.appfood.app-main-27:/layout/item_grid_mon_ngau_nhien.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_chi_tiet_danh_muc.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_chi_tiet_danh_muc.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_gioi_thieu_chung.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_gioi_thieu_chung.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/item_chi_tiet_danh_muc.xml",
+        "source": "com.example.appfood.app-main-27:/layout/item_chi_tiet_danh_muc.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/item_grid_danh_muc.xml",
+        "source": "com.example.appfood.app-main-27:/layout/item_grid_danh_muc.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_don_hang.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_don_hang.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_danh_muc.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_danh_muc.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/acctivity_yeuthich.xml",
+        "source": "com.example.appfood.app-main-27:/layout/acctivity_yeuthich.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/item_loading.xml",
+        "source": "com.example.appfood.app-main-27:/layout/item_loading.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_lien_he.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_lien_he.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/app_loading.xml",
+        "source": "com.example.appfood.app-main-27:/layout/app_loading.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_main.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_chi_tiet_mon.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_chi_tiet_mon.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/item_list_nav.xml",
+        "source": "com.example.appfood.app-main-27:/layout/item_list_nav.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_success_checkout.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_success_checkout.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/item_giohang.xml",
+        "source": "com.example.appfood.app-main-27:/layout/item_giohang.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_home.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/activity_thong_tin_khach_hang.xml",
+        "source": "com.example.appfood.app-main-27:/layout/activity_thong_tin_khach_hang.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/log_in.xml",
+        "source": "com.example.appfood.app-main-27:/layout/log_in.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/item_don_hang.xml",
+        "source": "com.example.appfood.app-main-27:/layout/item_don_hang.xml"
+    },
+    {
+        "merged": "com.example.appfood.app-mergeDebugResources-24:/layout/spinner_item.xml",
+        "source": "com.example.appfood.app-main-27:/layout/spinner_item.xml"
+    }
+]
